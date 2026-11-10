@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAMPUS LOST &amp;FOUND"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#173B70"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Campus Lost and Found!"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost something? Found something?\\nWe are here to help you!"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#666666"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"/>
+
+        <Button
+            android:id="@+id/btnLost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Lost Item"
+            android:backgroundTint="#173B70"/>
+
+        <Button
+            android:id="@+id/btnFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Found Item"
+            android:backgroundTint="#2878B5"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Items"
+            android:backgroundTint="#173B70"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+</ScrollView>
